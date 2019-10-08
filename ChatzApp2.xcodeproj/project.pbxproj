@@ -19,6 +19,7 @@
 		9DEDBFA9234A277000DF4A72 /* CollectionReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEDBFA8234A277000DF4A72 /* CollectionReference.swift */; };
 		9DEDBFAB234A28B700DF4A72 /* HelperFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEDBFAA234A28B700DF4A72 /* HelperFunctions.swift */; };
 		9DF05924234CAC1800347263 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 9DF05923234CAC1800347263 /* .gitignore */; };
+		9DFA308C234CB5B1007A19C0 /* FinishRegistrationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFA308B234CB5B1007A19C0 /* FinishRegistrationVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		9DEDBFA8234A277000DF4A72 /* CollectionReference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionReference.swift; sourceTree = "<group>"; };
 		9DEDBFAA234A28B700DF4A72 /* HelperFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelperFunctions.swift; sourceTree = "<group>"; };
 		9DF05923234CAC1800347263 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		9DFA308B234CB5B1007A19C0 /* FinishRegistrationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishRegistrationVC.swift; sourceTree = "<group>"; };
 		CFC34229B44AEAA30D610D9B /* Pods-ChatzApp2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatzApp2.release.xcconfig"; path = "Target Support Files/Pods-ChatzApp2/Pods-ChatzApp2.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -91,12 +93,11 @@
 		9D9C86992306B51600E7AD2B /* ChatzApp2 */ = {
 			isa = PBXGroup;
 			children = (
+				9DFA308A234CB58D007A19C0 /* Classes */,
+				9DFA3089234CB582007A19C0 /* Helpers */,
 				9D9C869A2306B51600E7AD2B /* AppDelegate.swift */,
 				9D9C869C2306B51600E7AD2B /* WelcomeVC.swift */,
-				9DEDBFA4234A26DC00DF4A72 /* FUser.swift */,
-				9DEDBFA6234A270100DF4A72 /* Constants.swift */,
-				9DEDBFA8234A277000DF4A72 /* CollectionReference.swift */,
-				9DEDBFAA234A28B700DF4A72 /* HelperFunctions.swift */,
+				9DFA308B234CB5B1007A19C0 /* FinishRegistrationVC.swift */,
 				9D9C869E2306B51600E7AD2B /* Main.storyboard */,
 				9D9C86A12306B51900E7AD2B /* Assets.xcassets */,
 				9D9C86A32306B51900E7AD2B /* LaunchScreen.storyboard */,
@@ -104,6 +105,24 @@
 				9DDB6A582306CDF800379700 /* GoogleService-Info.plist */,
 			);
 			path = ChatzApp2;
+			sourceTree = "<group>";
+		};
+		9DFA3089234CB582007A19C0 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				9DEDBFA6234A270100DF4A72 /* Constants.swift */,
+				9DEDBFA8234A277000DF4A72 /* CollectionReference.swift */,
+				9DEDBFAA234A28B700DF4A72 /* HelperFunctions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		9DFA308A234CB58D007A19C0 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9DEDBFA4234A26DC00DF4A72 /* FUser.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -225,6 +244,7 @@
 			files = (
 				9DEDBFA5234A26DD00DF4A72 /* FUser.swift in Sources */,
 				9D9C869D2306B51600E7AD2B /* WelcomeVC.swift in Sources */,
+				9DFA308C234CB5B1007A19C0 /* FinishRegistrationVC.swift in Sources */,
 				9D9C869B2306B51600E7AD2B /* AppDelegate.swift in Sources */,
 				9DEDBFA9234A277000DF4A72 /* CollectionReference.swift in Sources */,
 				9DEDBFA7234A270100DF4A72 /* Constants.swift in Sources */,

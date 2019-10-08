@@ -68,6 +68,9 @@ class WelcomeVC: UIViewController {
     }
     
     func registerUser(){
+        performSegue(withIdentifier: "welcomeToFinishReg", sender: nil)
+        clearTexts()
+        dismissKeyboard()
         print("Registering User!")
     }
     
@@ -91,6 +94,15 @@ class WelcomeVC: UIViewController {
         repeatPasswordTextField.text = ""
     }
     
+    //MARK: Perform Segue
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "welcomeToFinishReg" {
+            let vc = segue.destination as! FinishRegistrationVC
+            vc.email = emailTextField.text!
+            vc.password = passwordTextfield.text!
+        }
+    }
     
 }
 

@@ -6,18 +6,18 @@ target 'ChatzApp2' do
   use_frameworks!
 
   # Pods for ChatzApp2
-#pod 'Firebase/Database'
-#pod 'Firebase/Core'
-#pod 'Firebase/Auth'
-#pod 'Firebase/Storage'
-#pod 'Firebase/Firestore'
+pod 'Firebase/Database'
+pod 'Firebase/Core'
+pod 'Firebase/Auth'
+pod 'Firebase/Storage'
+pod 'Firebase/Firestore'
 
 pod 'ProgressHUD'
-#pod 'MBProgressHUD'
-#pod 'IQAudioRecorderController'
-#
-#pod 'JSQMessagesViewController','7.3.3'
-#pod 'IDMPhotoBrowser'
+pod 'MBProgressHUD'
+pod 'IQAudioRecorderController'
+
+pod 'JSQMessagesViewController','7.3.3'
+pod 'IDMPhotoBrowser'
 
 #NO
 # pod 'ImagePicker'
