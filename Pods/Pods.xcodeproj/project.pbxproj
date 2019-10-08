@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36DDE3B47C186E4BA2CBB47952B48725 /* Pods-ChatzApp2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5432BD87F22F7FFAA75B784C3812C93D /* Pods-ChatzApp2-dummy.m */; };
+		68232F2A68DFFA3A2E007822A97A205C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		69FD7EA3DEA2CCADCEA4C4FD80BFA34A /* Pods-ChatzApp2-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E3BCFEF19CF151B0AEFDFF9D600DDF14 /* Pods-ChatzApp2-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		787982E06BA8E86A642A72EE8DD37176 /* ProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = ED5FAE6969AA253D0081C3895F91176C /* ProgressHUD.bundle */; };
+		99DD1C9D5C58E0878F10A38DDE0E941D /* ProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AD876A3A541EA8660236396A1A5B68C5 /* ProgressHUD-dummy.m */; };
+		AF2C0D69B83F759DFEC4D5CB07D8A792 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		BCDC042D9482426BA8A62E3170407236 /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C9B8509BA27863688FC8A61337B3D94 /* ProgressHUD.m */; };
+		D91D41C90DFAE210224AFD5358BFD72B /* ProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = FA45D85289EA512C976A6A86D5F2C209 /* ProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E77259292952A522E832209EAA8890A3 /* ProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0469F1AF2BA87FEF86F44C4DE6C812D1 /* ProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF1D5C1BA77723AA8B9A19B908719083 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 022D0373DF61EE4E133BADB43CE7ED57;
+			remoteInfo = ProgressHUD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0469F1AF2BA87FEF86F44C4DE6C812D1 /* ProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		0A5EAC5021574AAB96443450B9D2D76D /* Pods-ChatzApp2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChatzApp2.release.xcconfig"; sourceTree = "<group>"; };
+		0D3287058D2F13BD484A454154BEA62B /* ProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ProgressHUD.framework; path = ProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C9B8509BA27863688FC8A61337B3D94 /* ProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ProgressHUD.m; path = ProgressHUD/ProgressHUD/ProgressHUD.m; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		37B56B19278C033689C79380D5B0E1CB /* ProgressHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ProgressHUD-Info.plist"; sourceTree = "<group>"; };
+		3E3D666C3058FADB4B56C2187121AD0A /* Pods-ChatzApp2-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChatzApp2-Info.plist"; sourceTree = "<group>"; };
+		4B7082712FE514424A3D7A62A5E94009 /* ProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ProgressHUD.xcconfig; sourceTree = "<group>"; };
+		5432BD87F22F7FFAA75B784C3812C93D /* Pods-ChatzApp2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ChatzApp2-dummy.m"; sourceTree = "<group>"; };
+		69272AE58DD4474A54924A034D12B2CD /* Pods-ChatzApp2-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ChatzApp2-frameworks.sh"; sourceTree = "<group>"; };
+		76C3D5F8F6981FEBF64A97F0CE436B2A /* ProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ProgressHUD.modulemap; sourceTree = "<group>"; };
+		7AE5F510E5E10D637FE9E5B5A57B5713 /* Pods-ChatzApp2-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ChatzApp2-acknowledgements.markdown"; sourceTree = "<group>"; };
+		982F882B819D04D78050A9C5A5172454 /* Pods-ChatzApp2.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ChatzApp2.modulemap"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AD876A3A541EA8660236396A1A5B68C5 /* ProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		BA9FE72956593C6AF026340001FD944D /* Pods-ChatzApp2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChatzApp2.debug.xcconfig"; sourceTree = "<group>"; };
+		CFF3ADF6347E175E7D2B478CA30DCB97 /* Pods_ChatzApp2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ChatzApp2.framework; path = "Pods-ChatzApp2.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3A85FC56B0439A099DF6238B738A5AC /* Pods-ChatzApp2-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChatzApp2-acknowledgements.plist"; sourceTree = "<group>"; };
+		E3BCFEF19CF151B0AEFDFF9D600DDF14 /* Pods-ChatzApp2-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ChatzApp2-umbrella.h"; sourceTree = "<group>"; };
+		ED5FAE6969AA253D0081C3895F91176C /* ProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = ProgressHUD.bundle; path = ProgressHUD/ProgressHUD/ProgressHUD.bundle; sourceTree = "<group>"; };
+		FA45D85289EA512C976A6A86D5F2C209 /* ProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ProgressHUD.h; path = ProgressHUD/ProgressHUD/ProgressHUD.h; sourceTree = "<group>"; };
+		FB77802CCA33E0A1F763E92B7EFDF2CA /* ProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6FDCE047922E4FCE4D1CFC097CF46D00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF2C0D69B83F759DFEC4D5CB07D8A792 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D97F1DF1AA9E8FB9E5430EA971732514 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68232F2A68DFFA3A2E007822A97A205C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12763AD547F11B5F4F3CA204BB9C1A4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFF3ADF6347E175E7D2B478CA30DCB97 /* Pods_ChatzApp2.framework */,
+				0D3287058D2F13BD484A454154BEA62B /* ProgressHUD.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B80C261650069FD42A4FF812557D186 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CFA2FF6780A3451CB9334E2A180B835E /* ProgressHUD */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5D6A53640B52088588D51E6F5DD60CDC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				76C3D5F8F6981FEBF64A97F0CE436B2A /* ProgressHUD.modulemap */,
+				4B7082712FE514424A3D7A62A5E94009 /* ProgressHUD.xcconfig */,
+				AD876A3A541EA8660236396A1A5B68C5 /* ProgressHUD-dummy.m */,
+				37B56B19278C033689C79380D5B0E1CB /* ProgressHUD-Info.plist */,
+				FB77802CCA33E0A1F763E92B7EFDF2CA /* ProgressHUD-prefix.pch */,
+				0469F1AF2BA87FEF86F44C4DE6C812D1 /* ProgressHUD-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ProgressHUD";
+			sourceTree = "<group>";
+		};
+		759F7995117CD920EEBE07E80EDE5321 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				805492E0342DE0124CAAE5F40224DDEC /* Pods-ChatzApp2 */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		805492E0342DE0124CAAE5F40224DDEC /* Pods-ChatzApp2 */ = {
+			isa = PBXGroup;
+			children = (
+				982F882B819D04D78050A9C5A5172454 /* Pods-ChatzApp2.modulemap */,
+				7AE5F510E5E10D637FE9E5B5A57B5713 /* Pods-ChatzApp2-acknowledgements.markdown */,
+				E3A85FC56B0439A099DF6238B738A5AC /* Pods-ChatzApp2-acknowledgements.plist */,
+				5432BD87F22F7FFAA75B784C3812C93D /* Pods-ChatzApp2-dummy.m */,
+				69272AE58DD4474A54924A034D12B2CD /* Pods-ChatzApp2-frameworks.sh */,
+				3E3D666C3058FADB4B56C2187121AD0A /* Pods-ChatzApp2-Info.plist */,
+				E3BCFEF19CF151B0AEFDFF9D600DDF14 /* Pods-ChatzApp2-umbrella.h */,
+				BA9FE72956593C6AF026340001FD944D /* Pods-ChatzApp2.debug.xcconfig */,
+				0A5EAC5021574AAB96443450B9D2D76D /* Pods-ChatzApp2.release.xcconfig */,
+			);
+			name = "Pods-ChatzApp2";
+			path = "Target Support Files/Pods-ChatzApp2";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C17D144F4975147A990DBFA8FF12E171 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ED5FAE6969AA253D0081C3895F91176C /* ProgressHUD.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				1B80C261650069FD42A4FF812557D186 /* Pods */,
+				12763AD547F11B5F4F3CA204BB9C1A4E /* Products */,
+				759F7995117CD920EEBE07E80EDE5321 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		CFA2FF6780A3451CB9334E2A180B835E /* ProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				FA45D85289EA512C976A6A86D5F2C209 /* ProgressHUD.h */,
+				1C9B8509BA27863688FC8A61337B3D94 /* ProgressHUD.m */,
+				C17D144F4975147A990DBFA8FF12E171 /* Resources */,
+				5D6A53640B52088588D51E6F5DD60CDC /* Support Files */,
+			);
+			name = ProgressHUD;
+			path = ProgressHUD;
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4A7AC81AFDB3546DAA0D8A7EB8C114C2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69FD7EA3DEA2CCADCEA4C4FD80BFA34A /* Pods-ChatzApp2-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67582519BED677AC812D5B4EFD0E506A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E77259292952A522E832209EAA8890A3 /* ProgressHUD-umbrella.h in Headers */,
+				D91D41C90DFAE210224AFD5358BFD72B /* ProgressHUD.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		022D0373DF61EE4E133BADB43CE7ED57 /* ProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD4A27565EE13AC433E8F2F3E33E52B4 /* Build configuration list for PBXNativeTarget "ProgressHUD" */;
+			buildPhases = (
+				67582519BED677AC812D5B4EFD0E506A /* Headers */,
+				76D2DA0427C43D787602FFA018B6BDE4 /* Sources */,
+				6FDCE047922E4FCE4D1CFC097CF46D00 /* Frameworks */,
+				7352DE14C725ACC66BAA1656A8FBE315 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProgressHUD;
+			productName = ProgressHUD;
+			productReference = 0D3287058D2F13BD484A454154BEA62B /* ProgressHUD.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		10BCED43F90D56079EEFA1BD59440732 /* Pods-ChatzApp2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AE4B8ED60B564C9BF807D461EAD4CF2 /* Build configuration list for PBXNativeTarget "Pods-ChatzApp2" */;
+			buildPhases = (
+				4A7AC81AFDB3546DAA0D8A7EB8C114C2 /* Headers */,
+				006EE374304F0358C65E17E8EF9E5F91 /* Sources */,
+				D97F1DF1AA9E8FB9E5430EA971732514 /* Frameworks */,
+				5D104077E3001CA52F544D13D78A9F3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75FC2599B8A0DBBAB7B31E584220E1E4 /* PBXTargetDependency */,
+			);
+			name = "Pods-ChatzApp2";
+			productName = "Pods-ChatzApp2";
+			productReference = CFF3ADF6347E175E7D2B478CA30DCB97 /* Pods_ChatzApp2.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 12763AD547F11B5F4F3CA204BB9C1A4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10BCED43F90D56079EEFA1BD59440732 /* Pods-ChatzApp2 */,
+				022D0373DF61EE4E133BADB43CE7ED57 /* ProgressHUD */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D104077E3001CA52F544D13D78A9F3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7352DE14C725ACC66BAA1656A8FBE315 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				787982E06BA8E86A642A72EE8DD37176 /* ProgressHUD.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		006EE374304F0358C65E17E8EF9E5F91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36DDE3B47C186E4BA2CBB47952B48725 /* Pods-ChatzApp2-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76D2DA0427C43D787602FFA018B6BDE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99DD1C9D5C58E0878F10A38DDE0E941D /* ProgressHUD-dummy.m in Sources */,
+				BCDC042D9482426BA8A62E3170407236 /* ProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		75FC2599B8A0DBBAB7B31E584220E1E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ProgressHUD;
+			target = 022D0373DF61EE4E133BADB43CE7ED57 /* ProgressHUD */;
+			targetProxy = DF1D5C1BA77723AA8B9A19B908719083 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		204B8AEA4AE90A551A1768B355C2F9F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3CCC6195EDBEE5DA2A49DF962113BE16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		725E06AAD07EBC39A1FCD111529EA3A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A5EAC5021574AAB96443450B9D2D76D /* Pods-ChatzApp2.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ChatzApp2/Pods-ChatzApp2-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ChatzApp2/Pods-ChatzApp2.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9EA8ECD500FAAE59BC1D079CBE941F19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B7082712FE514424A3D7A62A5E94009 /* ProgressHUD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ProgressHUD/ProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ProgressHUD/ProgressHUD-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ProgressHUD/ProgressHUD.modulemap";
+				PRODUCT_MODULE_NAME = ProgressHUD;
+				PRODUCT_NAME = ProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A41A2518D7F80018B2EFEE95F3CEED32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B7082712FE514424A3D7A62A5E94009 /* ProgressHUD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ProgressHUD/ProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ProgressHUD/ProgressHUD-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ProgressHUD/ProgressHUD.modulemap";
+				PRODUCT_MODULE_NAME = ProgressHUD;
+				PRODUCT_NAME = ProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DC2E520F7416DE3A477811C0877643B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA9FE72956593C6AF026340001FD944D /* Pods-ChatzApp2.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ChatzApp2/Pods-ChatzApp2-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ChatzApp2/Pods-ChatzApp2.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3AE4B8ED60B564C9BF807D461EAD4CF2 /* Build configuration list for PBXNativeTarget "Pods-ChatzApp2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC2E520F7416DE3A477811C0877643B5 /* Debug */,
+				725E06AAD07EBC39A1FCD111529EA3A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				204B8AEA4AE90A551A1768B355C2F9F0 /* Debug */,
+				3CCC6195EDBEE5DA2A49DF962113BE16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD4A27565EE13AC433E8F2F3E33E52B4 /* Build configuration list for PBXNativeTarget "ProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EA8ECD500FAAE59BC1D079CBE941F19 /* Debug */,
+				A41A2518D7F80018B2EFEE95F3CEED32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
